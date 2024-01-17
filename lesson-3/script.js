@@ -61,5 +61,5 @@ console.log(isInteger, isMusbat);
 if (Number.isInteger(number) && number % 2 == 0) {
     console.log("sucessfully entered");
 } else {
-    console.log("Fail");-
+    console.log("Fail");
 }
