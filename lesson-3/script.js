@@ -31,8 +31,8 @@
 // Number.isInteger(num) // butun yoki butun son emaslikka tekshiradi.
 // console.log(Number.isInteger(number));
 // console.log(Number.isSafeInteger(number));
-// console.log(Number.parseInt(number));
-// console.log(Number.parseFloat(number));
+// console.log(Number.parseInt(number)); -> 1, 2 - 2 , -60 
+// console.log(Number.parseFloat(number)); , 1.2 , 2.333
 // console.log(number.toFixed()); // butun qismi
 // console.log(number.toPrecision()); // string conversion
 // console.log(number.toString()); // to String conversion
@@ -49,17 +49,17 @@
 
 // console.log(window);
 
-let number = +prompt("Please enter a number");
+// let number = +prompt("Please enter a number");
 
-// A butun son berilgan , A son musbat sonligi tekshirilisn!
+// // A butun son berilgan , A son musbat sonligi tekshirilisn!
 
-const isInteger = Number.isInteger(number);
-const isJuft = number % 2 == 0;
+// const isInteger = Number.isInteger(number);
+// const isJuft = number % 2 == 0;
 
-console.log(isInteger, isMusbat);
+// console.log(isInteger, isMusbat);
 
-if (Number.isInteger(number) && number % 2 == 0) {
-    console.log("sucessfully entered");
-} else {
-    console.log("Fail");
-}
+// if (Number.isInteger(number) && number % 2 == 0) {
+//     console.log("sucessfully entered");
+// } else {
+//     console.log("Fail");
+// }
