@@ -59,17 +59,88 @@
 
 // -------------------- ARRAY -------------------
 
-let arr = [];
+// let arr = [];
+// let arr=new Array()
 
-console.log(arr);
-arr[0] = "Hello, world!";
-console.log(arr);
-arr[1] = "Hello!";
-arr[2] = "Hello";
-console.log(arr);
-arr[2] = "Mello";
-arr[3] = "War";
-arr[4] = "nima";
-arr[5] = "app";
+// console.log(arr);
+// arr[0] = "Hello, world!";
+// console.log(arr);
+// arr[1] = "Hello!";
+// arr[2] = "Hello";
+// console.log(arr);
+// arr[2] = "Mello";
+// arr[3] = "War";
+// arr[4] = "nima";
+// arr[5] = "app";
+// console.log(arr);
 
-console.log(arr);
+// const array = new Array(1, 2, 3, 4, null, undefined);
+
+// console.log(array);
+// array[0] = "Hello, world!";
+// console.log(array);
+
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let arr = ["html", "css", "scss", "js", "react"];
+
+// push -> ohiridan element qo'shadi
+// arr.push(1, 2, 3)
+
+// pop -> ohiridan element o'chiradi
+// console.log(arr.length);
+// arr.pop();
+
+// unshift -> arrayni boshidan element qo'shadi
+// arr.unshift(-2, -1, 0)
+
+// shift - > arrayni boshidan o'chiradi
+// arr.shift()
+
+// slice(indexN , indexM) -> elementdan -> elemtngacha nuxalab beradi
+// splice(index from  to index) ->
+
+// console.log(arr.slice(0, 2));
+
+// console.log(arr.splice(0, 2));
+
+// console.log(arr);
+
+// console.log(arr.reverse()) // teskari
+
+// console.log(arr.includes("html")) // boolean -> || -> false
+
+// console.log(arr.reverse().join("    ")); // to string
+
+// console.log(arr.sort())
+
+// ... spread operator
+
+// let complex = arr.concat(numbers).concat(arr).concat("salom", "yana salom");
+// let spreadArray = [ 1, 2 ,[ 3,4 , [ 5 , 6 , [ 7 , 8 , arr]]]];
+
+
+// let spreadArray = [...arr , 2, ...arr , ...numbers];
+
+// console.log(complex)
+
+// console.log(spreadArray)
+// console.log(spreadArray.flat(10));
+
+// console.log(spreadArray.flat(7)[4])
+
+//  [ a,b,c,d,e,f,g,h ] -> ...[ a,b,c,d,e,f,g,h] => a,b,c,d,e,f,g,h
+
+
+// function arrayNumbers(n) {
+//     let arr = [];
+//     for (var i = 0; i <= n; i++) {
+//         arr.push(2 ** i);
+//     }
+
+//     return arr;
+// }
+
+// const result = arrayNumbers(999930);
+
+// console.log(result);
+

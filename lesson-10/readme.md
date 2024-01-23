@@ -51,6 +51,27 @@ const add = (x, y) => x + y;
 
 - ARRAY literal  -> [ element1 , element2 , element3 , ........]
 
+- Array methods 
+
+- push +
+- pop +
+- unshift +
+- shift +
+- slice +
+- splice +
+- include +
+- join + 
+- reverse + 
+- sort
+- concat
+- flat
+
+
+![Alt text](image.png)
+
+
+
+
 
 
 
