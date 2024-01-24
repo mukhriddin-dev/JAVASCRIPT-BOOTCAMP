@@ -62,9 +62,9 @@ const add = (x, y) => x + y;
 - include +
 - join + 
 - reverse + 
-- sort
-- concat
-- flat
+- sort +
+- concat +
+- flat +
 
 
 ![Alt text](image.png)

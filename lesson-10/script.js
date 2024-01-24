@@ -144,3 +144,22 @@
 
 // console.log(result);
 
+
+// const letters = ["a", "b", "c"];
+// const colors = ["red", "green", "blue", "yellow", "gray", "black", "aqua"];
+
+// // const mixArray = letters.concat(colors);
+// const mixArray = [...letters, ...colors]; // ... spread
+
+// /// ... rest
+// const [one, two, ...nimadir] = mixArray;
+// // destructuring
+
+// console.log("MixArray: ", mixArray);
+// console.log("Others: ", nimadir);
+// let numbers = [1, 2, 3, 4, 5, 6, 7]
+// console.log(numbers[0]);
+// const [txt, ...smth] = numbers;
+// console.log(txt)
+// console.log(smth)
+// console.log(window)
