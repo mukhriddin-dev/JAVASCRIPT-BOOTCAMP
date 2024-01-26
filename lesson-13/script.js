@@ -158,18 +158,18 @@
 // console.log(telegram.next().value);
 // console.log(telegram.next().done);
 
-let fomSubmit = document.getElementById("taskForm");
-let taskTitle = document.getElementById("title");
-let renderList = document.getElementById("list");
+// let fomSubmit = document.getElementById("taskForm");
+// let taskTitle = document.getElementById("title");
+// let renderList = document.getElementById("list");
 
-let taskArray = [];
 
-fomSubmit.addEventListener("submit", () => {
-    let task = {
-        title: taskTitle.value,
-    };
 
-    taskArray.push(task);
+// fomSubmit.addEventListener("submit", () => {
+//     let task = {
+//         title: taskTitle.value,
+//     };
 
-    taskTitle.value = "";
-});
+//     taskArray.push(task);
+
+//     taskTitle.value = "";
+// });
